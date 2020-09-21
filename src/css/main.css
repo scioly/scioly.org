@@ -7,23 +7,23 @@
 
 @font-face {
 	font-family: Avenir;
-	src: url(/src/fonts/avenir-book.ttf);
+	src: url(/scioly.org/src/fonts/avenir-book.ttf);
 	font-weight: 400;
 }
 @font-face {
 	font-family: Avenir;
-	src: url(/src/fonts/avenir-medium.ttf);
+	src: url(/scioly.org/src/fonts/avenir-medium.ttf);
 	font-weight: 600;
 }
 @font-face {
 	font-family: Avenir;
-	/*src: url(/src/fonts/avenir-heavy.ttf);*/ /* not used because it is missing many characters */
-	src: url(/src/fonts/avenir-medium.ttf);
+	/*src: url(/scioly.org/src/fonts/avenir-heavy.ttf);*/ /* not used because it is missing many characters */
+	src: url(/scioly.org/src/fonts/avenir-medium.ttf);
 	font-weight: 800;
 }
 @font-face {
 	font-family: Avenir;
-	src: url(/src/fonts/avenir-black.ttf);
+	src: url(/scioly.org/src/fonts/avenir-black.ttf);
 	font-weight: 1000;
 }
 :root {
