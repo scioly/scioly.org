@@ -16,12 +16,12 @@ function include(file) {
 
 // adds HTML files for page head, site navigation bar, and site footer
 $(document).ready(function() {
-	$.get('/src/html/head.html', function(data) {
+	$.get('/scioly.org/src/html/head.html', function(data) {
 		$('head').append(data);
-		$.get('/src/html/nav.html', function(data) {
+		$.get('/scioly.org/src/html/nav.html', function(data) {
 			$('body').prepend(data);
 			$('body').wrapInner('<div class="content"></div>');
-			$.get('/src/html/footer.html', function(data) {
+			$.get('/scioly.org/src/html/footer.html', function(data) {
 				$('body').append(data);
 			});
 		});
@@ -36,6 +36,6 @@ $(window).resize(function() {
 	$('div#wrap').css("min-height", ($(window).outerHeight() - $('div.banner').outerHeight() - $('div.site-nav').outerHeight() - $('div.site-footer').outerHeight()));
 });
 
-include('/src/js/hamburger.js'); // adds hamburger menu functionality
-include('/src/js/external.js'); // allows alerts when external likes are clicked
-include('/src/js/easteregg.js'); // enables easter egg for dark mode when correct keystrokes are inputted
+include('/scioly.org/src/js/hamburger.js'); // adds hamburger menu functionality
+include('/scioly.org/src/js/external.js'); // allows alerts when external likes are clicked
+include('/scioly.org/src/js/easteregg.js'); // enables easter egg for dark mode when correct keystrokes are inputted
