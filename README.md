@@ -10,12 +10,16 @@ During anticipated downtime, replace the original DNS configuration in Namecheap
 
 #### Original DNS Configuration
 
-```A        @        198.211.96.235```
+```
+A        @        198.211.96.235
+```
 
 #### DNS Configuration to GitHub Pages
 
-```A       @       185.199.108.153
+```
+A       @       185.199.108.153
 A       @       185.199.109.153
 A       @       185.199.110.153
 A       @       185.199.111.153
-CNAME   www     scioly.github.io```
+CNAME   www     scioly.github.io
+```
